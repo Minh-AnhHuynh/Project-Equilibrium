@@ -40,7 +40,7 @@
 </item>
 <item>
   <title>Welcome To My Blog</title>
-  <dc:creator>Tristan O'Malley</dc:creator>
+  <dc:creator>Minh-Anh Huynh</dc:creator>
   <link>https://minh-anhhuynh.github.io/Project-Equilibrium/posts/welcome/index.html</link>
   <description><![CDATA[ 
 
@@ -49,14 +49,17 @@
 
 <p>This is the first post in a Quarto blog. Welcome!</p>
 <p><img src="https://minh-anhhuynh.github.io/Project-Equilibrium/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
-<p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
+<p>Well, making a website in quarto is surprisingly easy, I highly recommend it to anyone, as a fresh beginner knowing only R and R markdown ! As Quarto is a supersed version of R Markdown, it will eventually find its footings among the community. It’s already very promising, having adopted the legacy and learnings of R markdown, all in a package.</p>
+<p>I have started this blog, following the spirit of Alexey Guzey’s <a href="https://guzey.com/personal/why-have-a-blog/#why-unoriginal-writing-is-useful">advice about why you should start writing a blog.</a> Thoughts are made to be shared, and writing down your thoughts is the ultimate form of thinking, as you have to deal with conveying clear, intelligible, thoughts that make sense, as well as making you remember in the long run the concepts you thought about, due to how you had to previously tinker with them in your brain, thus forming connections. The only issue is that making a blog is daunting, but not so anymore.</p>
+<p>I have found that the concept of reality is an important one currently, and writing is sort of a way of engaging with reality. The alternative is thinking you’re thinking properly by having this soup of thought in your brain, thinking you make sense, you’re a genius, and 5 minutes later you’ve already forgotten about it.</p>
+<p>I intend to use this blog as either a bioinformatics blog of my journey as an R biologist and enthusiast, or a philosophical rambling on concepts. Most likely they will be separate.</p>
 
 
 
  ]]></description>
   <category>news</category>
   <guid>https://minh-anhhuynh.github.io/Project-Equilibrium/posts/welcome/index.html</guid>
-  <pubDate>Sat, 20 Aug 2022 22:00:00 GMT</pubDate>
+  <pubDate>Tue, 23 Aug 2022 22:00:00 GMT</pubDate>
   <media:content url="https://minh-anhhuynh.github.io/Project-Equilibrium/posts/welcome/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
