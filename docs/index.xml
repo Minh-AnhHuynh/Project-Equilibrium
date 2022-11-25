@@ -9,34 +9,69 @@
 <link>https://minh-anhhuynh.github.io/Project-Equilibrium/index.html</link>
 <atom:link href="https://minh-anhhuynh.github.io/Project-Equilibrium/index.xml" rel="self" type="application/rss+xml"/>
 <description>Thinking blog</description>
-<generator>quarto-1.0.11</generator>
+<generator>quarto-1.2.269</generator>
 <lastBuildDate>Tue, 23 Aug 2022 22:00:00 GMT</lastBuildDate>
 <item>
-  <title>Post With Code</title>
-  <dc:creator>Harlow Malloc</dc:creator>
-  <link>https://minh-anhhuynh.github.io/Project-Equilibrium/posts/post-with-code/index.html</link>
+  <title>How to add only part of figure caption in list of figures</title>
+  <dc:creator>Minh-Anh Huynh</dc:creator>
+  <link>https://minh-anhhuynh.github.io/Project-Equilibrium/posts/how-to-add-only-part-of-figure-text/index.html</link>
   <description><![CDATA[ 
 
 
 
 
-<p>This is a post with executable code.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="dv" style="color: #AD0000;">1</span> <span class="sc" style="color: #5E5E5E;">+</span> <span class="dv" style="color: #AD0000;">1</span></span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
-</div>
-</div>
+<p>Based on this answer from <a href="https://stackoverflow.com/questions/69094228/give-a-single-figure-multiple-captions-in-rmarkdown-pdf-book-output">stackoverflow</a>, you can run this LaTeX code to do so :</p>
+<pre><code>\begin{figure}
+\includegraphics{figures/calcitriol-immunomodulatory.jpg} 
+\caption[\textbf{Effets immunomodulateurs du calcitriol.}]{\textbf{Effets immunomodulateurs du calcitriol.} Source : [@Meza-Meza.2020]}\label{immunomod}
+\end{figure}</code></pre>
+<p>Here is how it looks like in a List of Figures. By the way, just write <code>\listoffigures</code> to generate it.</p>
+<p><img src="https://minh-anhhuynh.github.io/Project-Equilibrium/posts/how-to-add-only-part-of-figure-text/images/tof-example.png" class="img-fluid"></p>
+<p>Then you can crossreference the figure using a LaTeX command :</p>
+<p>Reference this Figure with <code>**(Figure \ref{immunomod})**</code></p>
+<p>Currently the citeproc doesn’t work inside this tex code so we need a workaround.</p>
 
 
 
  ]]></description>
-  <category>news</category>
-  <category>code</category>
-  <category>analysis</category>
-  <guid>https://minh-anhhuynh.github.io/Project-Equilibrium/posts/post-with-code/index.html</guid>
+  <category>quarto</category>
+  <category>tips</category>
+  <guid>https://minh-anhhuynh.github.io/Project-Equilibrium/posts/how-to-add-only-part-of-figure-text/index.html</guid>
   <pubDate>Tue, 23 Aug 2022 22:00:00 GMT</pubDate>
-  <media:content url="https://minh-anhhuynh.github.io/Project-Equilibrium/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://minh-anhhuynh.github.io/Project-Equilibrium/posts/how-to-add-only-part-of-figure-text/tof-example.png" medium="image" type="image/png"/>
+</item>
+<item>
+  <title>Process of writing</title>
+  <dc:creator>Minh-Anh Huynh</dc:creator>
+  <link>https://minh-anhhuynh.github.io/Project-Equilibrium/posts/process-of-writing/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="management-of-ideas" class="level2">
+<h2 class="anchored" data-anchor-id="management-of-ideas">Management of ideas</h2>
+<p>Ideas are what keep blogs interesting. I make extensive use of Notion as a flexible database and all-in-one idea basket, which I use in a surprisingly basic way. It’s essentially for me a super powered up bookmark manager, except in each page you can write anything, and each line can be transformed into a page, which can become anything again. This has endless customization, and posses simple but effective database managers.</p>
+<p>Side note, but I believe the Office suite is great, but can be easily outdated by stronger, more specialized tools. Quarto can render beautiful word, pdf document or even presentations. Notion can be a great all-in-one for jotting down both your thoughts and ideas, but also keeping record of internet pages, and doubles as an organizational tool sometimes. There’s no need to restrict ourselves to an outdated A4 page for writing and visualizing again. I bet you’re not reading this text on a paper, even more likely on a phone screen. Good news, html content can adapt itself to your phone screen, which is great. Don’t use Excel for such simple tasks, you’ll be served better with something else. By knowing R, I don’t think I’ll be going back to Excel for research purposes. I mean, it’s 100% better, the code is intimidating, but luckily there’s guides. I’d rather learn R than try to learn Excel’s functions. The thing with Excel, is that it’s not scalable at all, and not fit as a database tool.</p>
+<p>Here is my <a href="https://sophosventum.notion.site/ef1d40c9987c49c1a87d30bcbac854c8?v=6e2a9f5bdc64488cbaaa09b415280560">current Notion Kanban board</a> about my ideas. Eventually I hope they’ll make their way onto this blog. Notion could very well become a blog in itself, but a website is a little more formal, and more customizable through Quarto. This was created on Jun 18, 2019, quite a while now. I guess projects take time to plant their seeds.</p>
+</section>
+<section id="splashart" class="level2">
+<h2 class="anchored" data-anchor-id="splashart">Splashart</h2>
+<p>Simple and effective illustrations can be found at Unsplash. Notion also allows easy access to those. Funnily enough, writing makes you think of a pen and a paper, but most likely 90% of what you’ll do nowadays is write on a keyboard.</p>
+<p>Still pen and paper are useful, in a physical way, as they take up space and remind you of their importance and existence. If you can’t navigate the digital, you’ll forget that it ever existed. It’s also one of my problem with my digital approach, it can be forgotten, but often not truly lost (though digital archives precisely exist due to internet impermanence). But at the same time, it is the era of digital that allows us to communicate to the world like this. As long as our current technology and the Internet exist and support this infrastructure, it’s the superior, modern way.</p>
+</section>
+<section id="writing" class="level2">
+<h2 class="anchored" data-anchor-id="writing">Writing</h2>
+<p>Coming from R Markdown, I’d guess writing in the source panel of R Studio would be all the same, but R Studio also allows writing in Visual mode quite pleasing. It essentially looks like a Word document, except there’s no issue on formatting. You just focus on writing. On that note, it allows you to focus on what really matters, the content while Quarto deals with the presentation.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>news</category>
+  <guid>https://minh-anhhuynh.github.io/Project-Equilibrium/posts/process-of-writing/index.html</guid>
+  <pubDate>Tue, 23 Aug 2022 22:00:00 GMT</pubDate>
+  <media:content url="https://minh-anhhuynh.github.io/Project-Equilibrium/posts/process-of-writing/process-of-writing.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Welcome To My Blog</title>
