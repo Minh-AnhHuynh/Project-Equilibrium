@@ -10,7 +10,7 @@
 <atom:link href="https://minh-anhhuynh.github.io/Project-Equilibrium/index.xml" rel="self" type="application/rss+xml"/>
 <description>Thinking blog</description>
 <generator>quarto-1.2.269</generator>
-<lastBuildDate>Tue, 23 Aug 2022 22:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 24 Nov 2022 23:00:00 GMT</lastBuildDate>
 <item>
   <title>How to add only part of figure caption in list of figures</title>
   <dc:creator>Minh-Anh Huynh</dc:creator>
@@ -37,8 +37,8 @@
   <category>quarto</category>
   <category>tips</category>
   <guid>https://minh-anhhuynh.github.io/Project-Equilibrium/posts/how-to-add-only-part-of-figure-text/index.html</guid>
-  <pubDate>Tue, 23 Aug 2022 22:00:00 GMT</pubDate>
-  <media:content url="https://minh-anhhuynh.github.io/Project-Equilibrium/posts/how-to-add-only-part-of-figure-text/tof-example.png" medium="image" type="image/png"/>
+  <pubDate>Thu, 24 Nov 2022 23:00:00 GMT</pubDate>
+  <media:content url="https://minh-anhhuynh.github.io/Project-Equilibrium/posts/how-to-add-only-part-of-figure-text/images/tof-example.png" medium="image" type="image/png" height="54" width="144"/>
 </item>
 <item>
   <title>Process of writing</title>
