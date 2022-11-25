@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Project-Equilibrium",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nAug 24, 2022\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nAug 24, 2022\n\n\nMinh-Anh Huynh\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n  \n\n\n\n\nHow to add only part of figure caption in list of figures\n\n\n\n\n\n\n\nquarto\n\n\ntips\n\n\n\n\n\n\n\n\n\n\n\nAug 24, 2022\n\n\nMinh-Anh Huynh\n\n\n\n\n\n\n  \n\n\n\n\nProcess of writing\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nAug 24, 2022\n\n\nMinh-Anh Huynh\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nAug 24, 2022\n\n\nMinh-Anh Huynh\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -26,5 +26,33 @@
     "title": "Welcome To My Blog",
     "section": "",
     "text": "Well, making a website in quarto is surprisingly easy, I highly recommend it to anyone, as a fresh beginner knowing only R and R markdown ! As Quarto is a supersed version of R Markdown, it will eventually find its footings among the community. It’s already very promising, having adopted the legacy and learnings of R markdown, all in a package.\nI have started this blog, following the spirit of Alexey Guzey’s advice about why you should start writing a blog. Thoughts are made to be shared, and writing down your thoughts is the ultimate form of thinking, as you have to deal with conveying clear, intelligible, thoughts that make sense, as well as making you remember in the long run the concepts you thought about, due to how you had to previously tinker with them in your brain, thus forming connections. The only issue is that making a blog is daunting, but not so anymore.\nI have found that the concept of reality is an important one currently, and writing is sort of a way of engaging with reality. The alternative is thinking you’re thinking properly by having this soup of thought in your brain, thinking you make sense, you’re a genius, and 5 minutes later you’ve already forgotten about it.\nI intend to use this blog as either a bioinformatics blog of my journey as an R biologist and enthusiast, or a philosophical rambling on concepts. Most likely they will be separate."
+  },
+  {
+    "objectID": "posts/process-of-writing/index.html",
+    "href": "posts/process-of-writing/index.html",
+    "title": "Process of writing",
+    "section": "",
+    "text": "Ideas are what keep blogs interesting. I make extensive use of Notion as a flexible database and all-in-one idea basket, which I use in a surprisingly basic way. It’s essentially for me a super powered up bookmark manager, except in each page you can write anything, and each line can be transformed into a page, which can become anything again. This has endless customization, and posses simple but effective database managers.\nSide note, but I believe the Office suite is great, but can be easily outdated by stronger, more specialized tools. Quarto can render beautiful word, pdf document or even presentations. Notion can be a great all-in-one for jotting down both your thoughts and ideas, but also keeping record of internet pages, and doubles as an organizational tool sometimes. There’s no need to restrict ourselves to an outdated A4 page for writing and visualizing again. I bet you’re not reading this text on a paper, even more likely on a phone screen. Good news, html content can adapt itself to your phone screen, which is great. Don’t use Excel for such simple tasks, you’ll be served better with something else. By knowing R, I don’t think I’ll be going back to Excel for research purposes. I mean, it’s 100% better, the code is intimidating, but luckily there’s guides. I’d rather learn R than try to learn Excel’s functions. The thing with Excel, is that it’s not scalable at all, and not fit as a database tool.\nHere is my current Notion Kanban board about my ideas. Eventually I hope they’ll make their way onto this blog. Notion could very well become a blog in itself, but a website is a little more formal, and more customizable through Quarto. This was created on Jun 18, 2019, quite a while now. I guess projects take time to plant their seeds."
+  },
+  {
+    "objectID": "posts/process-of-writing/index.html#splashart",
+    "href": "posts/process-of-writing/index.html#splashart",
+    "title": "Process of writing",
+    "section": "Splashart",
+    "text": "Splashart\nSimple and effective illustrations can be found at Unsplash. Notion also allows easy access to those. Funnily enough, writing makes you think of a pen and a paper, but most likely 90% of what you’ll do nowadays is write on a keyboard.\nStill pen and paper are useful, in a physical way, as they take up space and remind you of their importance and existence. If you can’t navigate the digital, you’ll forget that it ever existed. It’s also one of my problem with my digital approach, it can be forgotten, but often not truly lost (though digital archives precisely exist due to internet impermanence). But at the same time, it is the era of digital that allows us to communicate to the world like this. As long as our current technology and the Internet exist and support this infrastructure, it’s the superior, modern way."
+  },
+  {
+    "objectID": "posts/process-of-writing/index.html#writing",
+    "href": "posts/process-of-writing/index.html#writing",
+    "title": "Process of writing",
+    "section": "Writing",
+    "text": "Writing\nComing from R Markdown, I’d guess writing in the source panel of R Studio would be all the same, but R Studio also allows writing in Visual mode quite pleasing. It essentially looks like a Word document, except there’s no issue on formatting. You just focus on writing. On that note, it allows you to focus on what really matters, the content while Quarto deals with the presentation."
+  },
+  {
+    "objectID": "posts/how-to-add-only-part-of-figure-text/index.html",
+    "href": "posts/how-to-add-only-part-of-figure-text/index.html",
+    "title": "How to add only part of figure caption in list of figures",
+    "section": "",
+    "text": "Based on this answer from stackoverflow, you can run this LaTeX code to do so :\n\\begin{figure}\n\\includegraphics{figures/calcitriol-immunomodulatory.jpg} \n\\caption[\\textbf{Effets immunomodulateurs du calcitriol.}]{\\textbf{Effets immunomodulateurs du calcitriol.} Source : [@Meza-Meza.2020]}\\label{immunomod}\n\\end{figure}\nHere is how it looks like in a List of Figures. By the way, just write \\listoffigures to generate it.\n\nThen you can crossreference the figure using a LaTeX command :\nReference this Figure with **(Figure \\ref{immunomod})**\nCurrently the citeproc doesn’t work inside this tex code so we need a workaround."
   }
 ]
