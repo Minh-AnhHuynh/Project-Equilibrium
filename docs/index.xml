@@ -21,11 +21,11 @@
 
 
 <p>Based on this answer from <a href="https://stackoverflow.com/questions/69094228/give-a-single-figure-multiple-captions-in-rmarkdown-pdf-book-output">stackoverflow</a>, you can run this LaTeX code to do so :</p>
-<pre><code>\begin{figure}
-\includegraphics{figures/calcitriol-immunomodulatory.jpg} 
-\caption[\textbf{Effets immunomodulateurs du calcitriol.}]{\textbf{Effets immunomodulateurs du calcitriol.} Source : [@Meza-Meza.2020]}\label{immunomod}
-\end{figure}</code></pre>
-<p>Here is how it looks like in a List of Figures. By the way, just write <code>\listoffigures</code> to generate it.</p>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb1-1"><span class="kw" style="color: #003B4F;">\begin</span>{<span class="ex" style="color: null;">figure</span>}</span>
+<span id="cb1-2"><span class="bu" style="color: null;">\includegraphics</span>{<span class="ex" style="color: null;">figures/calcitriol-immunomodulatory.jpg</span>} </span>
+<span id="cb1-3"><span class="fu" style="color: #4758AB;">\caption</span>[<span class="fu" style="color: #4758AB;">\textbf</span>{Effets immunomodulateurs du calcitriol.}]{<span class="fu" style="color: #4758AB;">\textbf</span>{Effets immunomodulateurs du calcitriol.} Source : [@Meza-Meza.2020]}<span class="kw" style="color: #003B4F;">\label</span>{<span class="ex" style="color: null;">immunomod</span>}</span>
+<span id="cb1-4"><span class="kw" style="color: #003B4F;">\end</span>{<span class="ex" style="color: null;">figure</span>}</span></code></pre></div>
+<p>Here is how it looks like in a List of Figures. By the way, just write <code>latex \listoffigures</code> to generate it.</p>
 <p><img src="https://minh-anhhuynh.github.io/Project-Equilibrium/posts/how-to-add-only-part-of-figure-text/images/tof-example.png" class="img-fluid"></p>
 <p>Then you can crossreference the figure using a LaTeX command :</p>
 <p>Reference this Figure with <code>**(Figure \ref{immunomod})**</code></p>

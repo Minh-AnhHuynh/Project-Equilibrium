@@ -53,6 +53,6 @@
     "href": "posts/how-to-add-only-part-of-figure-text/index.html",
     "title": "How to add only part of figure caption in list of figures",
     "section": "",
-    "text": "Based on this answer from stackoverflow, you can run this LaTeX code to do so :\n\\begin{figure}\n\\includegraphics{figures/calcitriol-immunomodulatory.jpg} \n\\caption[\\textbf{Effets immunomodulateurs du calcitriol.}]{\\textbf{Effets immunomodulateurs du calcitriol.} Source : [@Meza-Meza.2020]}\\label{immunomod}\n\\end{figure}\nHere is how it looks like in a List of Figures. By the way, just write \\listoffigures to generate it.\n\nThen you can crossreference the figure using a LaTeX command :\nReference this Figure with **(Figure \\ref{immunomod})**\nCurrently the citeproc doesn’t work inside this tex code so we need a workaround."
+    "text": "Based on this answer from stackoverflow, you can run this LaTeX code to do so :\n\\begin{figure}\n\\includegraphics{figures/calcitriol-immunomodulatory.jpg} \n\\caption[\\textbf{Effets immunomodulateurs du calcitriol.}]{\\textbf{Effets immunomodulateurs du calcitriol.} Source : [@Meza-Meza.2020]}\\label{immunomod}\n\\end{figure}\nHere is how it looks like in a List of Figures. By the way, just write latex \\listoffigures to generate it.\n\nThen you can crossreference the figure using a LaTeX command :\nReference this Figure with **(Figure \\ref{immunomod})**\nCurrently the citeproc doesn’t work inside this tex code so we need a workaround."
   }
 ]

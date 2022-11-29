@@ -13,23 +13,21 @@ Based on this answer from
 [stackoverflow](https://stackoverflow.com/questions/69094228/give-a-single-figure-multiple-captions-in-rmarkdown-pdf-book-output),
 you can run this LaTeX code to do so :
 
-```
+``` latex
 \begin{figure}
 \includegraphics{figures/calcitriol-immunomodulatory.jpg} 
 \caption[\textbf{Effets immunomodulateurs du calcitriol.}]{\textbf{Effets immunomodulateurs du calcitriol.} Source : [@Meza-Meza.2020]}\label{immunomod}
 \end{figure}
 ```
-Here is how it looks like in a List of Figures.
-By the way, just write `\listoffigures` to generate it.
 
-\listoffigures
+Here is how it looks like in a List of Figures. By the way, just write
+`\listoffigures` to generate it.
 
 ![](images/tof-example.png)
 
 Then you can crossreference the figure using a LaTeX command :
 
-Reference this Figure with
-`**(Figure \ref{immunomod})**`
+Reference this Figure with `**(Figure \ref{immunomod})**`
 
 Currently the citeproc doesn't work inside this tex code so we need a
 workaround.
