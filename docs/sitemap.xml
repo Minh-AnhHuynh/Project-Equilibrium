@@ -1,27 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://minh-anhhuynh.github.io/Project-Equilibrium/index.html</loc>
-    <lastmod>2022-11-25T23:39:15.797Z</lastmod>
-  </url>
-  <url>
     <loc>https://minh-anhhuynh.github.io/Project-Equilibrium/about.html</loc>
-    <lastmod>2022-08-24T17:11:28.387Z</lastmod>
+    <lastmod>2022-12-12T15:33:26.438Z</lastmod>
   </url>
   <url>
-    <loc>https://minh-anhhuynh.github.io/Project-Equilibrium/posts/post-with-code/index.html</loc>
-    <lastmod>2022-08-24T17:11:29.187Z</lastmod>
+    <loc>https://minh-anhhuynh.github.io/Project-Equilibrium/drafts/other.html</loc>
+    <lastmod>2022-12-12T15:33:26.884Z</lastmod>
   </url>
   <url>
-    <loc>https://minh-anhhuynh.github.io/Project-Equilibrium/posts/welcome/index.html</loc>
-    <lastmod>2022-08-24T17:11:29.678Z</lastmod>
+    <loc>https://minh-anhhuynh.github.io/Project-Equilibrium/drafts/process-of-writing/index.html</loc>
+    <lastmod>2022-12-12T15:33:27.412Z</lastmod>
   </url>
   <url>
-    <loc>https://minh-anhhuynh.github.io/Project-Equilibrium/posts/process-of-writing/index.html</loc>
-    <lastmod>2022-11-25T23:33:52.843Z</lastmod>
+    <loc>https://minh-anhhuynh.github.io/Project-Equilibrium/index.html</loc>
+    <lastmod>2022-12-12T15:33:28.011Z</lastmod>
+  </url>
+  <url>
+    <loc>https://minh-anhhuynh.github.io/Project-Equilibrium/posts/correct_automatic_brackets/index.html</loc>
+    <lastmod>2022-12-12T15:33:28.759Z</lastmod>
   </url>
   <url>
     <loc>https://minh-anhhuynh.github.io/Project-Equilibrium/posts/how-to-add-only-part-of-figure-text/index.html</loc>
-    <lastmod>2022-11-25T23:33:52.434Z</lastmod>
+    <lastmod>2022-12-12T15:33:29.192Z</lastmod>
+  </url>
+  <url>
+    <loc>https://minh-anhhuynh.github.io/Project-Equilibrium/posts/welcome/index.html</loc>
+    <lastmod>2022-12-12T15:33:29.630Z</lastmod>
   </url>
 </urlset>
